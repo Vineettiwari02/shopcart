@@ -15,7 +15,7 @@ export const ProductCard = ({product}) => {
     }else{
       setIsInCart(false)
     }
-  },[cartlist, id] )
+  },[cartlist, product.id] )
   return (
    <div className="productCard">
 
